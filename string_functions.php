@@ -36,3 +36,7 @@ if(str_ends_with($string, 'rld')){
     echo 'YES';
 }
 
+$string2 = '<script>alert(0)</script>';
+echo htmlspecialchars($string2) ;
+printf('%s likes to %s', 'Ben', 'code');
+printf('1+1=%f', 1+1);

@@ -1,10 +1,10 @@
-<?php include './config/database.php'; ?>
+<?php include "./config/database.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" scontent="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <title>Leave Feedback</title>
 </head>
@@ -18,13 +18,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" href="/index.php">Add Feedback</a>
+            <a class="nav-link" href="/php-course/feedback/index.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/feedback.php">Past Feedback</a>
+            <a class="nav-link" href="/php-course/feedback/feedback.php">Past Feedback</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/about.php">About</a>
+            <a class="nav-link" href="/php-course/feedback/about.php">About</a>
           </li>
         </ul>
       </div>
